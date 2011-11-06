@@ -1,0 +1,195 @@
+/*************************************************
+	Stylesheet for top nav bar in congruence with 
+	twitter bootstrap. 
+	http://twitter.github.com/bootstrap
+  	Created by: Corbin Fanning
+	For: Langford ITS 
+	www.corbinfanning.com
+**************************************************/
+
+/**** Typography  ****/
+
+h3 {
+	margin: 2px;
+	line-height: 16px;
+	color: white;
+}
+.topbar .menu-dropdown li a  {
+  line-height: 12px;
+  font-size: 10px;
+}
+.news li  {
+  line-height: 12px;
+  font-size: 10px;
+}
+
+/***** Layout **********/
+
+
+.topbar img.logo{
+  float: left;
+	margin: 5px;
+	margin-right: 20px;
+}
+.topbar .menu .search {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 5px 0px 0px;
+}
+.search-nav {
+  float: right;
+}
+.topbar .menu .search:after {
+  content: none;
+}
+.dropdown-box   {
+  padding: 0;
+}
+.menu-dropdown {
+	min-width: 382px;
+	min-height: 80px;
+	float: left;
+	overflow: hidden;
+}
+.topbar div > ul a.quadrant	{
+	float: left;
+	width: 180px;
+	height: 90px;
+	padding: 5px;
+}
+ul.menu-dropdown.dropdown-box.research .quadrant{
+  height: 60px;
+}
+.topbar div > ul a.single	{
+	float: left;
+	min-width: 180px;
+	height: 60px;
+	padding: 5px;
+}
+.menu-dropdown li, .dropdown-menu li {
+    display: inline;
+    float: none;
+    padding: 0px;
+}
+.news ul {
+  display: inline;
+  float: left; 
+  margin: 0px;
+  padding: 0px;
+}
+.news h3 {
+  text-align: center;
+}
+.news img {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.news-column-left {
+  float: left;
+  display: inline;
+  overflow: hidden;
+  line-height: 5em;
+  width: 110px;
+  height: 200px;
+  margin: 0px;
+  padding: 0px;
+  border-right: 1px solid #ffffff;
+}
+.news-column-left ul li a img, .news-column-right ul   {
+  display: block;
+  margin: 1em 2em 0 0 ;
+  clear: both;
+}
+.news-column-middle {
+  float: left;
+  width: 90px;
+  height: 200px;
+  border-right: 1px solid #ffffff;
+}
+.news-column-middle ul li a img {
+  padding: 0 0 0 1em;
+}
+.news-column-right {
+  float: left;
+  width: 178px;
+  height: 180px;
+}
+.news-column-right li ul {
+  padding: 0px;
+  margin: 0px;
+}
+.news-column-right ul li > a {
+  line-height: 10px;
+}
+.menu-dropdown.search-dropdown {
+	min-width: 235px;
+}
+div.search-engine {
+  display: none;
+}
+/*********** Forms ******************/
+
+form.search fieldset {
+  margin: 0px 0px 0px 10px;
+  padding: 0px;
+}
+form div#search-btns {
+  margin: 5px 0px 5px 3px;
+}
+form.search label {
+  color: white;
+}
+form.search legend {
+  color: white;
+  
+}
+form.search .search-btns {
+  margin: 5px 0px 0px 50px;
+  padding: 0px;
+  clear: right;
+}
+.search .btn.large.success {
+  height: 30px;
+  margin: 5px 0px 0px 5px;
+  padding: 2px 8px 2px 8px;
+}
+form.search legend {
+  padding: 0px 0px 5px 5px;
+}
+/********* Borders & Hovers *********/
+
+a:active, a:focus, a:hover {
+ outline: none;
+}
+.bottomBorder {
+  border-bottom: 1px solid #ffffff;
+}
+.rightBorder  {
+  border-left: 1px solid #ffffff;
+  -webkit-border-radius: 0 0 6px 0;
+  -moz-border-radius: 0 0 6px 0;
+  border-radius: 0 0 6px 0;
+}
+.topBorder  {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.menu-dropdown li a:hover:not(.bottomBorder):not(.rightBorder) {
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+}
+li .news:not(:last-child) , li a .news:not(:last-child) {
+    border-right: 1px solid #ffffff;
+}
+.topbar div > .nav .menu-dropdown li.news a:hover {
+   background-color: #333333;
+   background-repeat: repeat-x;
+   background-image: none;
+   filter: none;
+   color: white;
+}
+.news img:hover ,.news img:focus, .news img:active {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
