@@ -10,7 +10,6 @@
 /**** Typography  ****/
 
 h3 {
-	margin: 2px;
 	line-height: 16px;
 	color: white;
 }
@@ -106,7 +105,7 @@ ul.menu-dropdown.dropdown-box.research .quadrant{
   border-right: 1px solid #ffffff;
 }
 .news-column-middle ul li a img {
-  padding: 0 0 0 1em;
+  padding: 0 0 0 2em;
 }
 .news-column-right {
   float: left;
